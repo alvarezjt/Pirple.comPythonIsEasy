@@ -38,7 +38,7 @@ class HangmanGame:
             os.path.join("Assets", "hangman_" + str((self.Chances + 1)) + ".png"))
         self.WordToGuess = input("Player " + str(self.CurrentPlayer) + ", please enter a word for Player 2 to guess: ")
         self.PygameWindow = pygame.display.set_mode((CONST_WIDTH, CONST_HEIGHT))
-        pygame.display.set_caption("Hangman 1.0 by Juan Thomas Alvarez")
+        pygame.display.set_caption("Hangman")
         self.BG_COLOR_WHITE = (255, 255, 255)
         self.BG_COLOR_BLACK = (0, 0, 0)
         self.CONST_GAME_FONT = pygame.font.SysFont('Times New Roman', 32)
